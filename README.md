@@ -79,7 +79,7 @@ Esto otorgó privilegios de `root`, permitiendo leer el archivo `root.txt` en el
 ## 6. Evidencias
 
 * **Escaneo de red (Nmap):**
-  ![Escaneo Nmap](./img/nmap.png) 
+  ![Escaneo Nmap](./img/Nmap.png) 
 
 * **Descubrimiento de directorios (Gobuster):**
   ![Gobuster](./img/gobuster.png)

@@ -88,7 +88,7 @@ Esto otorgó privilegios de `root`, permitiendo leer el archivo `root.txt` en el
   ![Subida PHP5](./img/upload_bypass.png)
 
 * **Obtención de shell y user.txt:**
-  ![User Flag](./img/coneccion a traves de nc.png) 
+  ![User Flag](./img/coneccion.png) 
   *Flag obtenida: `THM{***************}`*
 
 * **Escalada a Root y root.txt:**

@@ -85,10 +85,11 @@ Esto otorgó privilegios de `root`, permitiendo leer el archivo `root.txt` en el
   ![Gobuster](./img/gobuster.png)
 
 * **Bypass y Subida de Reverse Shell:**
-  ![Subida PHP5](./img/upload_bypass.png)
+  ![Subida PHP5](./img/subida_archivo.png)
 
 * **Obtención de shell y user.txt:**
-  ![User Flag](./img/coneccion.png) 
+  ![coneccion](./img/coneccion.png)
+  ![User Flag](./img/flag_user.png) 
   *Flag obtenida: `THM{***************}`*
 
 * **Escalada a Root y root.txt:**

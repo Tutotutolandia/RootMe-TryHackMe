@@ -90,11 +90,9 @@ Esto otorgó privilegios de `root`, permitiendo leer el archivo `root.txt` en el
 * **Obtención de shell y user.txt:**
   ![coneccion](./img/coneccion.png)
   ![User Flag](./img/flag_user.png) 
-  *Flag obtenida: `THM{***************}`*
 
 * **Escalada a Root y root.txt:**
   ![Root Flag](./img/root_flag.png)
-  *Flag obtenida: `THM{***************}`*
 
 ## 7. Conclusiones y aprendizajes obtenidos
 Este laboratorio demostró de manera práctica cómo las vulnerabilidades aparentemente simples a nivel de aplicación web (una subida de archivos mal filtrada) pueden ser el punto de entrada crítico para comprometer una infraestructura. Además, refuerza la importancia de la correcta administración de sistemas en Linux; un solo binario mal configurado (SUID en Python) es suficiente para derribar todas las barreras entre un usuario sin privilegios y el control total del sistema. La seguridad debe aplicarse en capas (Defensa en Profundidad), asegurando tanto el código de la aplicación web como las configuraciones del sistema operativo subyacente.

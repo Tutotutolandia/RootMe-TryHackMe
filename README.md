@@ -5,8 +5,7 @@ El objetivo de este laboratorio es aplicar metodologías de pruebas de penetraci
 
 ## 2. Herramientas utilizadas
 * **Nmap:** Para el escaneo de puertos y descubrimiento de servicios.
-* **Gobuster / Dirsearch:** Para la enumeración de directorios y fuerza bruta web.
-* **Burp Suite / Wappalyzer:** Para el análisis de tecnologías y peticiones HTTP.
+* **Gobuster:** Para la enumeración de directorios y fuerza bruta web.
 * **Netcat (nc):** Para establecer la conexión en la Reverse Shell.
 * **GTFOBins:** Recurso en línea utilizado para investigar la escalada de privilegios a través de binarios del sistema.
 

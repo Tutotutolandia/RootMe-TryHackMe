@@ -79,8 +79,7 @@ Esto otorgó privilegios de `root`, permitiendo leer el archivo `root.txt` en el
 ## 6. Evidencias
 
 * **Escaneo de red (Nmap):**
-  ![Escaneo Nmap](./img/nmap_scan.png) 
-  *(Nota: Reemplaza esta ruta con tu captura local)*
+  ![Escaneo Nmap](./img/nmap.png) 
 
 * **Descubrimiento de directorios (Gobuster):**
   ![Gobuster](./img/gobuster.png)
@@ -89,7 +88,7 @@ Esto otorgó privilegios de `root`, permitiendo leer el archivo `root.txt` en el
   ![Subida PHP5](./img/upload_bypass.png)
 
 * **Obtención de shell y user.txt:**
-  ![User Flag](./img/user_flag.png) 
+  ![User Flag](./img/coneccion_a_traves_de_nc.png) 
   *Flag obtenida: `THM{***************}`*
 
 * **Escalada a Root y root.txt:**

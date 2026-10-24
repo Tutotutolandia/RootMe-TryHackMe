@@ -85,6 +85,7 @@ Esto otorgó privilegios de `root`, permitiendo leer el archivo `root.txt` en el
   ![Gobuster](./img/gobuster.png)
 
 * **Subida de Reverse Shell:**
+
   ![Subida PHP5](./img/archivo_subido.png)
 
 * **Obtención de shell y user.txt:**

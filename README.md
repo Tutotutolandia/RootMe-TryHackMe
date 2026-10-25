@@ -75,13 +75,13 @@ Esto otorgó privilegios de `root`, permitiendo leer el archivo `root.txt` en el
 
 1. **Para la subida de archivos (File Upload):**
    * **Implementar listas blancas (Whitelisting):** Solo permitir extensiones estrictamente necesarias (ej. `.jpg`, `.png`, `.pdf`) y bloquear todo lo demás.
-   * **Validación de contenido y tipo MIME:** No confiar únicamente en la extensión; verificar la firma del archivo (Magic Bytes).
+   * **Validación de contenido y tipo MIME:** No confiar únicamente en la extensión; verificar la firma del archivo.
    * **Renombrar archivos:** Cambiar el nombre del archivo al subirlo (usando un hash) para evitar llamadas directas predecibles.
    * **Restricción de ejecución:** Configurar el servidor web para que no ejecute scripts dentro de la carpeta `/uploads/`.
 
 2. **Para los permisos SUID:**
    * **Principio de Mínimo Privilegio:** Retirar el bit SUID del binario de Python. Se puede solucionar ejecutando: `chmod -s /usr/bin/p*****`.
-   * **Auditorías regulares:** Monitorear y auditar periódicamente los binarios SUID/SGID del sistema usando scripts de hardening (como LinPEAS) para asegurar que no se introduzcan configuraciones riesgosas por error.
+   * **Auditorías regulares:** Monitorear y auditar periódicamente los binarios SUID del sistema usando scripts de hardening para asegurar que no se introduzcan configuraciones riesgosas por error.
 
 ## 6. Evidencias
 

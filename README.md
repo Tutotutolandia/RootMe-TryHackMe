@@ -86,29 +86,29 @@ Esto otorgó privilegios de `root`, permitiendo leer el archivo `root.txt` en el
 ## 6. Evidencias
 
 * **Escaneo de red (Nmap):**
-  ![Escaneo Nmap](./img/Nmap.png) 
+  ![Escaneo Nmap](./evidencias/Nmap.png) 
 
 * **Descubrimiento de directorios (Gobuster):**
-  ![Gobuster](./img/gobuster.png)
+  ![Gobuster](./evidencias/gobuster.png)
 
 * **Subida de Reverse Shell:**
 
-  ![Subida PHP5](./img/archivo_subido.png)
+  ![Subida PHP5](./evidencias/archivo_subido.png)
 
 * **Obtención de shell y user.txt:**
-  ![coneccion](./img/coneccion.png)
-  ![User Flag](./img/flag_user.png) 
+  ![coneccion](./evidencias/coneccion.png)
+  ![User Flag](./evidencias/flag_user.png) 
 
 * **Escalada a Root y root.txt:**
   
-  ![Root control](./img/control_root.png)
-  ![Root Flag](./img/root_flag.png)
+  ![Root control](./evidencias/control_root.png)
+  ![Root Flag](./evidencias/root_flag.png)
 
-* En la carpeta img hay más imágenes del paso a paso que no fueron puestas aquí.
+* En la carpeta evidencias hay más imágenes del paso a paso que no fueron puestas aquí.
 
 * Evidencia de completacion del desafio:
 
-  ![desafio completado](./img/completado.png)
+  ![desafio completado](./evidencias/completado.png)
 
 ## 7. Conclusiones y aprendizajes obtenidos
 Este laboratorio demostró de manera práctica cómo las vulnerabilidades aparentemente simples a nivel de aplicación web (una subida de archivos mal filtrada) pueden ser el punto de entrada crítico para comprometer una infraestructura. Además, refuerza la importancia de la correcta administración de sistemas en Linux; un solo binario mal configurado (SUID en Python) es suficiente para derribar todas las barreras entre un usuario sin privilegios y el control total del sistema. La seguridad debe aplicarse en capas (Defensa en Profundidad), asegurando tanto el código de la aplicación web como las configuraciones del sistema operativo subyacente.

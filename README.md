@@ -92,6 +92,7 @@ Esto otorgó privilegios de `root`, permitiendo leer el archivo `root.txt` en el
   ![User Flag](./img/flag_user.png) 
 
 * **Escalada a Root y root.txt:**
+  
   ![Root control](./img/control_root.png)
   ![Root Flag](./img/root_flag.png)
 

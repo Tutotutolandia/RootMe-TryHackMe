@@ -42,14 +42,18 @@ Y se ejecutó el payload navegando al directorio `/uploads/shell.php5`, obtenien
 Una vez dentro del sistema, se procedió a buscar vectores de escalada de privilegios. Se buscaron archivos con el bit SUID activo, lo que permite ejecutar un binario con los permisos de su propietario (en este caso, root):
 
 ```bash
-find / -user root -perm /4000 2>/dev/null
+find / -user root -perm /4000
 ```
 El resultado reveló que el binario `/usr/bin/python` tenía el bit SUID configurado de manera inusual. Consultando *GTFOBins*, se ejecutó el siguiente comando para invocar una shell privilegiada:
 
 ```bash
 /usr/bin/python -c 'import os; os.execl("/bin/sh", "sh", "-p")'
 ```
-Esto otorgó privilegios de `root`, permitiendo leer el archivo `root.txt` en el directorio `/root`.
+Esto otorgó privilegios de `root`, permitiendo leer el archivo `root.txt` en el directorio encontrado a travez de:
+
+```bash
+ find / -type f -name root.txt
+```
 
 ## 4. Vulnerabilidades encontradas y sus posibles impactos
 
